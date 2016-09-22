@@ -30,7 +30,7 @@ A prerequisite for logging is that the serial port is initialized in the setup r
     }
 
 - A product key is obtained from [devicedrive.com/subscription/](https://devicedrive.com/subscription/). This key identifies the product in the DeviceDrive cloud. This must be a valid key issued by DeviceDrive, or all communication will fail.
-- The Introspect is a JSON object that describes your device and its capabilities. See the [Serial Specification](TODO).
+- The Introspect is a JSON object that describes your device and its capabilities. See the [Serial Specification](https://devicedrive.com/downloads/).
 
 
 	  #define INTROSPECTION_INTERFACES [[\"com.devicedrive.light\",\
@@ -128,7 +128,7 @@ WRFConfig defines how the WRF should behave in certain situations. The following
       ...
     }
 
-More commands can be found in the [serial specification](TODO)
+More commands can be found in the [serial specification](https://devicedrive.com/downloads/)
 
 * ssid_prefix: The SSID prefix to apply next time when the WRF01 is set visible. E.g. "MyPrefix" will give "MyPrexix_aa:bb:cc:dd" (abcd is part of the mac address). If you are using our app, set this to default "DeviceDrive" as the Linkup SDK looks for the prefix in its filtering of SSID's
 * ssl_enabled: To be able to communicate with your device from the app and to encrypt data, set this value to true. If you for some reason don't want to encrypt your data, it can be set to false. This will also disable the ability to use the mobile application.
