@@ -1,0 +1,72 @@
+#######################################
+#	Copyright 2016 DeviceDrive AS
+#	
+#	Licensed under the Apache License, Version 2.0 (the "License");
+#	you may not use this file except in compliance with the License.
+#	You may obtain a copy of the License at
+#	
+#	http ://www.apache.org/licenses/LICENSE-2.0
+#	
+#	Unless required by applicable law or agreed to in writing, software
+#	distributed under the License is distributed on an "AS IS" BASIS,
+#	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#	See the License for the specific language governing permissions and
+#	limitations under the License.
+#
+#######################################
+
+#######################################
+# Syntax Coloring Map for ArduinoWRF
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+WRF							KEYWORD1
+WRFConfig					KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setupParam					KEYWORD2
+loopHandler					KEYWORD2
+init						KEYWORD2
+connect						KEYWORD2
+prepareLinkUpMode			KEYWORD2
+poll						KEYWORD2
+setPollInterval				KEYWORD2
+upgrade						KEYWORD2
+checkPendingUpgrade			KEYWORD2
+startWrfUpgrade				KEYWORD2
+startClientUpgrade			KEYWORD2
+send						KEYWORD2
+canSendCommand				KEYWORD2
+isOnline					KEYWORD2
+sendMessage					KEYWORD2
+sendCommandWithoutParams	KEYWORD2
+sendCommand					KEYWORD2
+sendIntrospect				KEYWORD2
+setVisibility				KEYWORD2
+getStatus					KEYWORD2
+onError						KEYWORD2
+onConnected					KEYWORD2
+onMessageSent				KEYWORD2
+onMessageReceived			KEYWORD2
+onPendingUpgrades			KEYWORD2
+onNotConnected				KEYWORD2
+onStatusReceived			KEYWORD2
+clearMessageQueue			KEYWORD2
+getListSize					KEYWORD2
+addToList					KEYWORD2
+addToDictionary				KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+DEBUG_ALL					LITERAL1
+DEBUG_NONE					LITERAL1
+ERROR_ALL					LITERAL1
+ERROR_LOCAL					LITERAL1
+ERROR_REMOTE				LITERAL1
+ERROR_NONE					LITERAL1
