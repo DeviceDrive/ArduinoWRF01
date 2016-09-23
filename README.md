@@ -3,6 +3,9 @@ Arduino WRF is an easy to use wrapper for Arduino Zero with the DeviceDrive WRF0
 This library abstracts all elements of Wifi operations and onboarding functions with simple commands.
 To get started fast, just implement your own message callbacks, send data to the cloud and control your device from our mobile app, designed for iOS and Android
 
+NOTE:
+The shield can be obtained from [DeviceDrive](https://devicedrive.com/). The application and SDK's are currently in closed beta. Contact us for access to these resources.
+
 ## Getting started
 Create a WRF object with a Serial port reference, version number, product key, an Introspect document and optionally an Serial port for logging.
 The Serial ports are Arduino's own serial interfaces, and you can reference them directly in the function call.
