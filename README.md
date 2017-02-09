@@ -1,3 +1,12 @@
+#----------------------------------------
+
+# DEPRICATED
+## To use the WRF with an Arduino, please see the new [WRF.SDK](https://github.com/DeviceDrive/WRF01.SDK)
+
+This library still works with an Arduino, but pull requests will not be prioritized
+
+#----------------------------------------
+
 # ArduinoWRF
 Arduino WRF is an easy to use wrapper for Arduino Zero with the DeviceDrive WRF01 Arduino Zero shield connected.
 This library abstracts all elements of Wifi operations and onboarding functions with simple commands.
