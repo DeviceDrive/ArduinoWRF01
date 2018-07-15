@@ -23,50 +23,50 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-WRF							KEYWORD1
-WRFConfig					KEYWORD1
+WRF	KEYWORD1
+WRFConfig	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-setupParam					KEYWORD2
-loopHandler					KEYWORD2
-init						KEYWORD2
-connect						KEYWORD2
-prepareLinkUpMode			KEYWORD2
-poll						KEYWORD2
-setPollInterval				KEYWORD2
-upgrade						KEYWORD2
-checkPendingUpgrade			KEYWORD2
-startWrfUpgrade				KEYWORD2
-startClientUpgrade			KEYWORD2
-send						KEYWORD2
-canSendCommand				KEYWORD2
-isOnline					KEYWORD2
-sendMessage					KEYWORD2
+setupParam	KEYWORD2
+loopHandler	KEYWORD2
+init	KEYWORD2
+connect	KEYWORD2
+prepareLinkUpMode	KEYWORD2
+poll	KEYWORD2
+setPollInterval	KEYWORD2
+upgrade	KEYWORD2
+checkPendingUpgrade	KEYWORD2
+startWrfUpgrade	KEYWORD2
+startClientUpgrade	KEYWORD2
+send	KEYWORD2
+canSendCommand	KEYWORD2
+isOnline	KEYWORD2
+sendMessage	KEYWORD2
 sendCommandWithoutParams	KEYWORD2
-sendCommand					KEYWORD2
-sendIntrospect				KEYWORD2
-setVisibility				KEYWORD2
-getStatus					KEYWORD2
-onError						KEYWORD2
-onConnected					KEYWORD2
-onMessageSent				KEYWORD2
-onMessageReceived			KEYWORD2
-onPendingUpgrades			KEYWORD2
-onNotConnected				KEYWORD2
-onStatusReceived			KEYWORD2
-clearMessageQueue			KEYWORD2
-getListSize					KEYWORD2
-addToList					KEYWORD2
-addToDictionary				KEYWORD2
+sendCommand	KEYWORD2
+sendIntrospect	KEYWORD2
+setVisibility	KEYWORD2
+getStatus	KEYWORD2
+onError	KEYWORD2
+onConnected	KEYWORD2
+onMessageSent	KEYWORD2
+onMessageReceived	KEYWORD2
+onPendingUpgrades	KEYWORD2
+onNotConnected	KEYWORD2
+onStatusReceived	KEYWORD2
+clearMessageQueue	KEYWORD2
+getListSize	KEYWORD2
+addToList	KEYWORD2
+addToDictionary	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
-DEBUG_ALL					LITERAL1
-DEBUG_NONE					LITERAL1
-ERROR_ALL					LITERAL1
-ERROR_LOCAL					LITERAL1
-ERROR_REMOTE				LITERAL1
-ERROR_NONE					LITERAL1
+DEBUG_ALL	LITERAL1
+DEBUG_NONE	LITERAL1
+ERROR_ALL	LITERAL1
+ERROR_LOCAL	LITERAL1
+ERROR_REMOTE	LITERAL1
+ERROR_NONE	LITERAL1
